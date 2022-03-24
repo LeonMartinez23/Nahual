@@ -1,0 +1,58 @@
+body{
+    background-color: #20202a;
+}
+
+#logo{
+    display:block;
+    margin:auto;
+    }
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #ff4a3b;
+    padding: 15px;
+}
+
+p,ul,li{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    list-style-type: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+/* Por debajo de 1000px */
+@media screen and (max-width: 1000px){
+    p
+    {
+        font-size:20px;
+    }
+}
+
+
+.hero-image {
+    background-image: url("../img/9.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .footer-image {
+    background-image: url("../img/23.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
